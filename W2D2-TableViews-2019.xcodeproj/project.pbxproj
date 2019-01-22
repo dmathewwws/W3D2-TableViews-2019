@@ -13,6 +13,7 @@
 		12E9FF3B21F784DF00418764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E9FF3A21F784DF00418764 /* Assets.xcassets */; };
 		12E9FF3E21F784DF00418764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E9FF3C21F784DF00418764 /* LaunchScreen.storyboard */; };
 		12E9FF4121F784E000418764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9FF4021F784E000418764 /* main.m */; };
+		12E9FF4921F789FA00418764 /* Episode.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9FF4821F789FA00418764 /* Episode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		12E9FF3D21F784DF00418764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E9FF3F21F784E000418764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E9FF4021F784E000418764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12E9FF4721F789FA00418764 /* Episode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Episode.h; sourceTree = "<group>"; };
+		12E9FF4821F789FA00418764 /* Episode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Episode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				12E9FF3221F784DE00418764 /* AppDelegate.m */,
 				12E9FF3421F784DE00418764 /* ViewController.h */,
 				12E9FF3521F784DE00418764 /* ViewController.m */,
+				12E9FF4721F789FA00418764 /* Episode.h */,
+				12E9FF4821F789FA00418764 /* Episode.m */,
 				12E9FF3721F784DE00418764 /* Main.storyboard */,
 				12E9FF3A21F784DF00418764 /* Assets.xcassets */,
 				12E9FF3C21F784DF00418764 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E9FF3621F784DE00418764 /* ViewController.m in Sources */,
+				12E9FF4921F789FA00418764 /* Episode.m in Sources */,
 				12E9FF4121F784E000418764 /* main.m in Sources */,
 				12E9FF3321F784DE00418764 /* AppDelegate.m in Sources */,
 			);
